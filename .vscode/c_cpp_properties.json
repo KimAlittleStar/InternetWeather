@@ -1,0 +1,95 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "C:/Keil_v5/ARM/ARMCC/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Keil_v5/ARM/ARMCC/include",
+                "C:/Program Files (x86)/Windows Kits/8.1/Include/um",
+                "C:/Program Files (x86)/Windows Kits/8.1/Include/shared",
+                "C:/Program Files (x86)/Windows Kits/8.1/Include/winrt",
+                "${workspaceRoot}/Source/HardWare_Lib/FWlib/inc",
+                "${workspaceRoot}/Source/HardWare_Core/CMSIS",
+                "${workspaceRoot}/Source/HardWare_Core/CMSIS/startup/arm",
+                "${workspaceRoot}/Source/Main",
+                "${workspaceRoot}/Source/Device_Basic/Inc",
+                "${workspaceRoot}/Source/UCOSII_core",
+                "${workspaceRoot}/Source/UCOSII_port",
+                "${workspaceRoot}/Source/FatFile",
+                "${workspaceRoot}/Source/OS_APP",
+                "${workspaceRoot}/Source/Data_Process",
+
+                "C:/Keil_v5/ARM/Pack/ARM/CMSIS/4.2.0/Device/ARM/ARMCM4/Include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/Keil_v5/ARM/ARMCC/include",
+                    "C:/Program Files (x86)/Windows Kits/8.1/Include/um",
+                    "C:/Program Files (x86)/Windows Kits/8.1/Include/shared",
+                    "C:/Program Files (x86)/Windows Kits/8.1/Include/winrt",
+                    "${workspaceRoot}/Source/Main",
+                    "${workspaceRoot}/Source/Device_Basic/Inc",
+                    "${workspaceRoot}/Source/HardWare_Lib/FWlib/inc",
+                    "${workspaceRoot}/Source/HardWare_Core/CMSIS",
+                    "${workspaceRoot}/Source/HardWare_Core/CMSIS/startup/arm",
+                    "${workspaceRoot}/Source/HardWare_Core/CMSIS",
+
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
